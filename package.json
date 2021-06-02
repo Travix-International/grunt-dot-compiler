@@ -1,7 +1,7 @@
 {
   "name": "grunt-dot-compiler",
   "description": "Grunt task for compiling doT templates",
-  "version": "0.5.12",
+  "version": "0.5.121",
   "homepage": "https://github.com/tinganho/grunt-dot",
   "author": {
     "name": "Tingan Ho",
@@ -11,6 +11,10 @@
     {
       "name": "Tingan Ho",
       "email": "tingan87@gmail.com"
+    },
+    {
+      "name": "elevenbeans",
+      "email": "elevenbeansf2e@gmail.com"
     }
   ],
   "repository": {
@@ -35,14 +39,14 @@
   },
   "dependencies": {
     "dot": "~1.0.1",
-    "grunt": "~0.4.1",
-    "findup-sync": "~0.1.2",
+    "grunt": "~1.4.1",
+    "findup-sync": "~4.0.0",
     "requirejs": "~2.1.5",
     "escape-html": "~1.0.0"
   },
   "devDependencies": {
     "grunt-contrib-clean": "~0.3.1",
-    "mocha": "~1.8.2",
+    "mocha": "~8.4.0",
     "chai": "~1.5.0"
   },
   "keywords": [
